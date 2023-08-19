@@ -1,0 +1,41 @@
+.todo-app {
+    text-align: center;
+    margin: 2rem;
+}
+
+.input-container {
+    margin-bottom: 1rem;
+}
+
+.todo-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.todo-item {
+    display: flex;
+    align-items: center;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.todo-item.completed {
+    background-color: #e5f7e3;
+}
+
+.todo-number {
+    font-weight: bold;
+    margin-right: 1rem;
+}
+
+.todo-title {
+    flex: 1;
+}
+
+.todo-buttons {
+    display: flex;
+    gap: 0.5rem;
+}
